@@ -23,14 +23,14 @@ namespace HeavenStudio
                 Debug.LogWarning("Game loader PcoCanneryLoader failed!");
             }
 
-             game = NtrShugyoLoader.AddGame(eventCaller);
+             game = NtrMunchyMonkLoader.AddGame(eventCaller);
             if (game != null)
             {
                 eventCaller.minigames.Add(game.name, game);
             }
             else
             {
-                Debug.LogWarning("Game loader NtrShugyoLoader failed!");
+                Debug.LogWarning("Game loader NtrMunchyMonkLoader failed!");
             }
             
             game = PcoBalloonHunterLoader.AddGame(eventCaller);
