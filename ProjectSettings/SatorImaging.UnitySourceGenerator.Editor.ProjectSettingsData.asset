@@ -19,6 +19,8 @@ MonoBehaviour:
   ImportedScriptPaths:
   - Assets/Scripts/Games/BalloonHunter/Balloon.cs
   - Assets/Scripts/Games/BalloonHunter/BalloonHunter.cs
+  - Assets/Scripts/Games/MunchyMonk/Dumpling.cs
+  - Assets/Scripts/Games/MunchyMonk/MunchyMonk.cs
   - Assets/Scripts/Games/Waffle/Waffle.cs
   - Assets/Scripts/LevelEditor/Editor.cs
   - Assets/Scripts/Games/NipInTheBud/Mayfly.cs
